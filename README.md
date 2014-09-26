@@ -1,10 +1,12 @@
 Httpscan
 ====================================
-版本1.0.1
+版本1.1.0
 
 简介：
 ------------------------------------
 > 针对猥琐的管理员把http开在了奇葩端口
+> 增加了多线程支持
+> 测试timeout==2效果不错
 
 使用环境:
 > 需要httplib2库
@@ -12,9 +14,9 @@ Httpscan
 
 使用:
 ------------------------------------
-	python httpscan.py example.com timeout port-from port-to (referer-url)
+	python httpscan.py example.com timeout port-from port-to threads
 ------------------------------------
 感谢:
 ------------------------------------
-imlonghao
+        imlonghao
 ------------------------------------
