@@ -40,7 +40,7 @@ class httpscan():
         except Exception,e:
             #print e
             pass
-        h.close()
+        
         
 def main():
     test=httpscan(ADDRESS,TIMES)
